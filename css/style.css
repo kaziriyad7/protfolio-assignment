@@ -46,7 +46,7 @@ body
 }
 .left-headingSide
 {
-    width: 30%;
+    width: 40%;
     float: left;
     margin-left: 8%;
     font-size: 30px;
@@ -56,16 +56,17 @@ body
 h2
 {
     color: tomato;
-    
+    font-size: 50px;
 }
 .hello
 {
     text-align: left;
+    font-size: 50px;
 }
 .button-link
 {
     text-decoration: none;
-    color: black;
+    color: rgb(234, 248, 107);
     padding: 10px 30px;
     border-radius: 5px;
     background-image: linear-gradient(45deg, black, transparent);
