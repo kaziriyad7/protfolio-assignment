@@ -22,11 +22,14 @@ body
     list-style: none;
     margin-right: 8%;
 }
-.Top-leftheading{float:left;height: 500px;}
-.Top-menuBar{
-
-
+.Top-leftheading
+{
+    float:left;
+    height: 500px;
+    margin-bottom: 300px;
 }
+
+
 .navbar-menu ul li {
     display: inline-block;
 }
@@ -34,7 +37,7 @@ body
 {
     width: 40%;
     float: right;
-    margin-right: 5%;
+    margin-right: 10%;
 }
 .right-image img
 {
@@ -42,16 +45,18 @@ body
 }
 .left-headingSide
 {
-    width: 40%;
+    width: 30%;
     float: left;
-    margin-left: 5%;
+    margin-left: 8%;
     font-size: 30px;
-    
+    margin-top: 2%;
 }
+
 
 h2
 {
     color: tomato;
+    
 }
 .button-link
 {
@@ -60,4 +65,31 @@ h2
     padding: 10px 30px;
     border-radius: 5px;
     background-image: linear-gradient(45deg, black, transparent);
+}
+
+
+
+
+.leftImage
+{
+    width: 40%;
+    float: left;
+}
+.leftImage img
+{
+    width: 100%;
+    margin-top: -40px;
+    margin-left: 8%;
+}
+.rightHeading
+{
+    width: 40%;
+    margin-right: 5%;
+    float: right;
+    margin-top: 80px;
+    font-size: 30px;
+}
+.rightHeading h1
+{
+    color: green;
 }
